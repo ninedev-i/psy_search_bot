@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  psi_bot:
+    container_name: psi_bot
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "2222:2222"
+    env_file:
+      - .env
