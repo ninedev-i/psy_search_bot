@@ -9,8 +9,11 @@ export interface Specialist {
 }
 
 export interface UserConfig {
-    gender: number;
-    format: number;
-    city: string;
-    price: number;
+    telegram_id: number
+    specialist_type?: number;
+    gender?: number;
+    format?: number;
+    city?: string;
+    price?: number;
+    age?: number;
 }

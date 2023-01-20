@@ -17,8 +17,8 @@ export const getUserConfig = (id: number): Promise<UserConfig> => {
 };
 
 //@ts-ignore
-export const setUserConfig = async (data): Promise<any> => {
-    const user = await knexConnection('users').insert(data).onConflict().merge();
+export const setUserConfig = async (data: UserConfig): Promise<any> => {
+    const user = await knexConnection<UserConfig>('users').insert(data).onConflict().merge();
 };
 
 export const formatDescription = ['Очно', 'Онлайн', 'Очно и онлайн'];
