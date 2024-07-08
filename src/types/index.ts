@@ -1,15 +1,15 @@
 export interface Specialist {
-  key: number;
-  name: string;
-  format: number;
-  gender: number;
-  city: string;
-  price: number;
-  photo: string;
+    key: number;
+    name: string;
+    format: number;
+    gender: number;
+    city: string;
+    price: number;
+    photo: string;
 }
 
 export interface UserConfig {
-    telegram_id: number
+    telegram_id: number;
     specialist_type?: number;
     gender?: number;
     format?: number;

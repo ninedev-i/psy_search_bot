@@ -1,5 +1,5 @@
 {
-  "name": "psy-dock",
+  "name": "psy_search_bot",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "dotenv": "^16.0.3",
     "knex": "^2.4.1",
     "mysql": "^2.18.1",
-    "node-telegram-bot-api": "^0.59.0",
+    "node-telegram-bot-api": "^0.61.0",
     "nodemon": "^2.0.19",
     "sqlite3": "^5.1.2"
   },
